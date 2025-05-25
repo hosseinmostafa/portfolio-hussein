@@ -3,6 +3,8 @@ import { Card, CardBody, Input, Textarea, Button, Divider } from "@heroui/react"
 import { Icon } from "@iconify/react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
+import Swal from 'sweetalert2';
+
 
 export const ContactSection = () => {
   const [name, setName] = React.useState("");
@@ -25,12 +27,32 @@ export const ContactSection = () => {
         setName("");
         setEmail("");
         setMessage("");
-        alert("Message sent successfully! 🚀");
+        Swal.fire({
+          title: "Message sent successfully! 🚀",
+          icon: "success",
+          background: "#1f1f1f",        
+          color: "#ffffff",             
+          iconColor: "#00ff88",   
+          confirmButtonColor: "#00ff88",
+          confirmButtonText: "OK"
+        });
+        
       })
       .catch((error) => {
         setIsSubmitting(false);
         console.error('EmailJS Error:', error);
-        alert("Failed to send message. Please try again later.");
+        Swal.fire({
+          title: "Failed to send message",
+          text: "Please try again later.",
+          
+          icon: "error",
+          background: "#1f1f1f",
+          color: "#ffffff",
+          iconColor: "#d33",
+          confirmButtonColor: "#d33",
+          confirmButtonText: "OK"
+        });
+        
       });
   };
   
