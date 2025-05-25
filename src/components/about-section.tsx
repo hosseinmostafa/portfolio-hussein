@@ -74,7 +74,7 @@ export const AboutSection = () => {
                 </Button>
                 <Button
                   as="a"
-                  href="./files/Alhussein-Mostafa.pdf"
+                  href="https://drive.google.com/file/d/1fyfzmjCaWvdt9w3Sf9EGSmcPAqCKmzrx/view?usp=drive_link"
                   variant="flat"
                   target="_blank"
                   color="secondary"

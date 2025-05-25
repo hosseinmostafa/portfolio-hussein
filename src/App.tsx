@@ -66,41 +66,41 @@ export default function App() {
           transition={{ duration: 0.6 }}
           className="mb-8 overflow-x-auto"
         >
-          <Tabs 
-            aria-label="Portfolio sections" 
+          <Tabs
+            aria-label="Portfolio sections"
             color="primary"
             variant="underlined"
-            selectedKey={activeTab} 
+            selectedKey={activeTab}
             onSelectionChange={setActiveTab as any}
             className="justify-center min-w-full"
           >
             <Tab key="about" title={
-              <div className="flex items-center gap-2 whitespace-nowrap">
-                <Icon icon="lucide:user" />
+              <div className="flex items-center gap-2 whitespace-nowrap text-base">
+                <Icon icon="lucide:user" className="text-xl" />
                 <span className="hidden sm:inline">About</span>
               </div>
             } />
             <Tab key="experience" title={
-              <div className="flex items-center gap-2 whitespace-nowrap">
-                <Icon icon="lucide:briefcase" />
+              <div className="flex items-center gap-2 whitespace-nowrap text-base">
+                <Icon icon="lucide:briefcase" className="text-xl" />
                 <span className="hidden sm:inline">Experience</span>
               </div>
             } />
             <Tab key="education" title={
-              <div className="flex items-center gap-2 whitespace-nowrap">
-                <Icon icon="lucide:graduation-cap" />
+              <div className="flex items-center gap-2 whitespace-nowrap text-base">
+                <Icon icon="lucide:graduation-cap" className="text-xl" />
                 <span className="hidden sm:inline">Education</span>
               </div>
             } />
             <Tab key="projects" title={
-              <div className="flex items-center gap-2 whitespace-nowrap">
-                <Icon icon="lucide:folder" />
+              <div className="flex items-center gap-2 whitespace-nowrap text-base">
+                <Icon icon="lucide:folder" className="text-xl" />
                 <span className="hidden sm:inline">Projects</span>
               </div>
             } />
             <Tab key="contact" title={
-              <div className="flex items-center gap-2 whitespace-nowrap">
-                <Icon icon="lucide:mail" />
+              <div className="flex items-center gap-2 whitespace-nowrap text-base">
+                <Icon icon="lucide:mail" className="text-xl" />
                 <span className="hidden sm:inline">Contact</span>
               </div>
             } />

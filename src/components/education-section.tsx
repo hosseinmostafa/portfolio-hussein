@@ -104,35 +104,35 @@ export const EducationSection = () => {
       issuer: "Digital Egypt Pioneers Initiative - DEPI",
       date: "2024",
       progress: 100,
-      src: "./files/Alhussein Mostafa Abdelrahman Mohamed 1.pdf"
+      src: "https://drive.google.com/file/d/1vB4vEkruPfJjCKW1ZtitTXafrfYnqOSc/view?usp=drive_link"
     },
     {
       name: "Frontend Development with React",
       issuer: "Hackerrank",
       date: "2025",
       progress: 100,
-      src: "./files/frontend_developer_react certificate 7.pdf"
+      src: "https://drive.google.com/file/d/1DthMPYUgNbiu_uuaCufV6s3WcT2SBk5z/view?usp=drive_link"
     },
     {
       name: "AWS",
       issuer: "National Telecommunication Institute - NTI",
       date: "2025",
       progress: 100,
-      src: "./files/Alhussein-Mostafa Abdulrahman AWS 3.pdf"
+      src: "https://drive.google.com/file/d/1YBiHOmKmdh_kcFFG-x4xwVb13geJFA9T/view?usp=drive_link"
     },
     {
       name: "JavaScript Intermediate",
       issuer: "SoloLearn",
       date: "2025",
       progress: 100,
-      src: "./files/Alhusseint javaScript 5.pdf"
+      src: "https://drive.google.com/file/d/1zXsv2l_ehL7vGFHTov-PHRneMQJUARO5/view?usp=drive_link"
     },
     {
       name: "CSS (Basic)",
       issuer: "Hackerrank",
       date: "2025",
       progress: 100,
-      src: "./files/css certificate 6.pdf"
+      src: "https://drive.google.com/file/d/1vblJbEoXP98-_OexDZJ097WsZY8Pi_XM/view?usp=drive_link"
     },
     
     {
@@ -140,42 +140,42 @@ export const EducationSection = () => {
       issuer: "Hackerrank",
       date: "2025",
       progress: 100,
-      src: "./files/javascript_intermediate certificate 8.pdf"
+      src: "https://drive.google.com/file/d/1gBhO-DP7q0bbxlRyu3GI9JlJqPLRaLw4/view?usp=drive_link"
     },
     {
       name: "Problem Solving (Basic)",
       issuer: "Hackerrank",
       date: "2025",
       progress: 100,
-      src: "./files/problem_solving_basic certificate 9.pdf"
+      src: "https://drive.google.com/file/d/1npGP-AL0vIG0F-okT9w-twQDDZlVKKDP/view?usp=drive_link"
     },
     {
       name: "Problem Solving (Intermediate)",
       issuer: "Hackerrank",
       date: "2025",
       progress: 100,
-      src: "./files/problem_solving_intermediate certificate 10.pdf"
+      src: "https://drive.google.com/file/d/1hL1RvJL2ecmjgY7v2aG8gpBlUf0uaeTN/view?usp=drive_link"
     },
     {
       name: "Python (Basic)",
       issuer: "Hackerrank",
       date: "2025",
       progress: 100,
-      src: "./files/python_basic certificate 11.pdf"
+      src: "https://drive.google.com/file/d/1SxX9-suhFDE1gNQqa4vSJIX22VHCOL9s/view?usp=drive_link"
     },
     {
       name: "UX Design Fundamentals",
       issuer: "Information Technology Institute - ITI",
       date: "2024",
       progress: 100,
-      src: "./files/Al-Hussein-Mostafa-UI 4.pdf"
+      src: "https://drive.google.com/file/d/1aoA7OfZruzUgktgM162KbEs8HbwaPjN1/view?usp=drive_link"
     },
     {
       name: "Business English Track",
       issuer: "Berlitz Egypt",
       date: "2024",
       progress: 100,
-      src: "./files/Al-Hussein Mustafa Abdul Rahman 2.pdf"
+      src: "https://drive.google.com/file/d/1frdZgluBLi7_1MDzES5moMmEY3pNrvUw/view?usp=drive_link"
     }
   ];
 
