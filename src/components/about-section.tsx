@@ -43,7 +43,7 @@ export const AboutSection = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.4 }}
               >
-                Front-end Developer | Angular & React Learner
+                Frontend Developer | Angular & React Learner
               </motion.h2>
 
               <motion.div
@@ -74,7 +74,7 @@ export const AboutSection = () => {
                 </Button>
                 <Button
                   as="a"
-                  href="https://drive.google.com/file/d/1V4xLJ9-DUgn2mXswd5cDl8sCN3xjkyAx/view?usp=drive_link"
+                  href="https://drive.google.com/file/d/1yrMY0z-IiGVOIgHWdX3Z7Oqug4KS_DTc/view?usp=drive_link"
                   variant="flat"
                   target="_blank"
                   color="secondary"
