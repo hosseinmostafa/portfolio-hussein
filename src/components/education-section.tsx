@@ -110,14 +110,14 @@ export const EducationSection = () => {
       name: "Frontend Development with React",
       issuer: "Hackerrank",
       date: "2025",
-      progress: 60,
+      progress: 100,
       src: "https://drive.google.com/file/d/1DthMPYUgNbiu_uuaCufV6s3WcT2SBk5z/view?usp=drive_link"
     },
     {
       name: "AWS",
       issuer: "National Telecommunication Institute - NTI",
       date: "2025",
-      progress: 50,
+      progress: 100,
       src: "https://drive.google.com/file/d/1YBiHOmKmdh_kcFFG-x4xwVb13geJFA9T/view?usp=drive_link"
     },
     {
@@ -167,7 +167,7 @@ export const EducationSection = () => {
       name: "Python (Basic)",
       issuer: "Hackerrank",
       date: "2025",
-      progress: 70,
+      progress: 50,
       src: "https://drive.google.com/file/d/1SxX9-suhFDE1gNQqa4vSJIX22VHCOL9s/view?usp=drive_link"
     },
     {
