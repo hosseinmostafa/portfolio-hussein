@@ -110,14 +110,14 @@ export const EducationSection = () => {
       name: "Frontend Development with React",
       issuer: "Hackerrank",
       date: "2025",
-      progress: 100,
+      progress: 60,
       src: "https://drive.google.com/file/d/1DthMPYUgNbiu_uuaCufV6s3WcT2SBk5z/view?usp=drive_link"
     },
     {
       name: "AWS",
       issuer: "National Telecommunication Institute - NTI",
       date: "2025",
-      progress: 100,
+      progress: 50,
       src: "https://drive.google.com/file/d/1YBiHOmKmdh_kcFFG-x4xwVb13geJFA9T/view?usp=drive_link"
     },
     {
@@ -126,6 +126,13 @@ export const EducationSection = () => {
       date: "2025",
       progress: 100,
       src: "https://drive.google.com/file/d/1zXsv2l_ehL7vGFHTov-PHRneMQJUARO5/view?usp=drive_link"
+    },
+    {
+      name: "Angular",
+      issuer: "SoloLearn",
+      date: "2025",
+      progress: 100,
+      src: "https://drive.google.com/file/d/18PfClDY2dF3zBIH5z8vS7YGAJ4Nq3Gs8/view?usp=drive_link"
     },
     {
       name: "CSS (Basic)",
@@ -153,21 +160,21 @@ export const EducationSection = () => {
       name: "Problem Solving (Intermediate)",
       issuer: "Hackerrank",
       date: "2025",
-      progress: 100,
+      progress: 70,
       src: "https://drive.google.com/file/d/1hL1RvJL2ecmjgY7v2aG8gpBlUf0uaeTN/view?usp=drive_link"
     },
     {
       name: "Python (Basic)",
       issuer: "Hackerrank",
       date: "2025",
-      progress: 100,
+      progress: 70,
       src: "https://drive.google.com/file/d/1SxX9-suhFDE1gNQqa4vSJIX22VHCOL9s/view?usp=drive_link"
     },
     {
       name: "UX Design Fundamentals",
       issuer: "Information Technology Institute - ITI",
       date: "2024",
-      progress: 100,
+      progress: 80,
       src: "https://drive.google.com/file/d/1aoA7OfZruzUgktgM162KbEs8HbwaPjN1/view?usp=drive_link"
     },
     {
