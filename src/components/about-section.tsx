@@ -74,7 +74,7 @@ export const AboutSection = () => {
                 </Button>
                 <Button
                   as="a"
-                  href="https://drive.google.com/file/d/1yrMY0z-IiGVOIgHWdX3Z7Oqug4KS_DTc/view?usp=drive_link"
+                  href="https://drive.google.com/file/d/1KiuniS2BRemDwAPCwkVQr4rfjS6tBmuV/view?usp=sharing"
                   variant="flat"
                   target="_blank"
                   color="secondary"
