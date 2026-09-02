@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+.animated-gradient {
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.section-transition {
+  transition: all 0.5s ease-in-out;
+}
+
+.section-transition:hover {
+  transform: translateY(-5px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  .section-transition:hover {
+    transform: translateY(-3px);
+  }
+  
+  h1, h2, h3 {
+    word-break: break-word;
+  }
+}
+
+/* Ensure content is readable on all devices */
+p {
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+
+/* Improve card readability on small screens */
+@media (max-width: 480px) {
+  .card-body {
+    padding: 1rem !important;
+  }
+}
